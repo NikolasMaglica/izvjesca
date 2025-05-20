@@ -1,0 +1,29 @@
+# Visual Studio datoteke i mape
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build rezultati
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+
+# NuGet paketi
+*.nupkg
+packages/
+
+# Ostale privremene datoteke
+*.cache
+*.log
+*.bak
+*.tmp
+
+# Ignoriraj Visual Studio Code datoteke (ako koristiš VS Code)
+.vscode/
+
+# Ignoriraj OS-specifiène datoteke
+Thumbs.db
+.DS_Store

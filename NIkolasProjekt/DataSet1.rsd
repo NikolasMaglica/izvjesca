@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Description />
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource2</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@OfferNumber">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>true</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>AnsiString</rd:DbType>
+          <rd:IsMultiValued>false</rd:IsMultiValued>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>procGetOfferDetails</CommandText>
+      <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+    </Query>
+    <Fields>
+      <Field Name="Broj_ponude">
+        <DataField>Broj ponude</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Broj_ponude_g">
+        <DataField>Broj ponude_g</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Datum_ponude">
+        <DataField>Datum ponude</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Datum_valjanosti">
+        <DataField>Datum valjanosti</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Mjesto">
+        <DataField>Mjesto</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Referentni_broj">
+        <DataField>Referentni broj</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Osnova">
+        <DataField>Osnova</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Ukupni_neto_iznos">
+        <DataField>Ukupni neto iznos</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Ukupni_PDV">
+        <DataField>Ukupni PDV</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Ukupni_iznos">
+        <DataField>Ukupni iznos</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Cijena_ponude">
+        <DataField>Cijena ponude</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Ime_klijenta">
+        <DataField>Ime klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Adresa_klijenta">
+        <DataField>Adresa klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Grad_klijenta">
+        <DataField>Grad klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Email_klijenta">
+        <DataField>Email klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="OIB_klijenta">
+        <DataField>OIB klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Telefon_klijenta">
+        <DataField>Telefon klijenta</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Naziv_materijala">
+        <DataField>Naziv materijala</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Količina_materijala">
+        <DataField>Količina materijala</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Cijena_materijala">
+        <DataField>Cijena materijala</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="PDV_materijala">
+        <DataField>PDV materijala</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Cijena_s_PDV_materijala">
+        <DataField>Cijena s PDV materijala</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Vrijednost_EUR_materijala">
+        <DataField>Vrijednost EUR materijala</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Naziv_usluge">
+        <DataField>Naziv usluge</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Količina_usluge">
+        <DataField>Količina usluge</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Cijena_usluge">
+        <DataField>Cijena usluge</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="PDV_usluge">
+        <DataField>PDV usluge</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Cijena_s_PDV_usluge">
+        <DataField>Cijena s PDV usluge</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Vrijednost_EUR_usluge">
+        <DataField>Vrijednost EUR usluge</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Registracijska_oznaka_vozila">
+        <DataField>Registracijska oznaka vozila</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
