@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.13.35931.197</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-05-20T14:39:48.4481626Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-05-21T12:08:42.3491486Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -190,25 +190,25 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.08482in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.22917in</Width>
+                  <Width>1.31399in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.08482in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.08482in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.08482in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.08482in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.22024in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -224,12 +224,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Broj ponude g</Value>
+                                  <Value>Broj ponude</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -242,7 +241,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -262,12 +263,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Naziv materijala</Value>
+                                  <Value>Naziv materijala/usluge</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -280,7 +280,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -303,9 +305,8 @@
                                   <Value>Količina materijala</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -321,7 +322,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -344,9 +347,8 @@
                                   <Value>Cijena materijala</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -362,7 +364,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -385,9 +389,8 @@
                                   <Value>PDV materijala</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -403,7 +406,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -426,9 +431,8 @@
                                   <Value>Cijena s PDV materijala</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -444,7 +448,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -464,12 +470,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Vrijednost EUR materijala</Value>
+                                  <Value>Vrijednost EUR </Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>11pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
-                                    <Color>#666666</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -485,8 +490,13 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
+                            <LeftBorder>
+                              <Style>None</Style>
+                            </LeftBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -513,6 +523,7 @@
                                   <Value>=Fields!Broj_ponude_g.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -529,6 +540,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </BottomBorder>
                             <FontFamily />
@@ -568,7 +580,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -607,7 +621,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -646,7 +662,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -685,7 +703,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -724,7 +744,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -763,7 +785,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -824,6 +848,7 @@
                                   <Value>=Fields!Naziv_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -837,6 +862,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </BottomBorder>
                             <FontFamily />
@@ -860,6 +886,7 @@
                                   <Value>=Fields!Količina_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -873,6 +900,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </BottomBorder>
                             <FontFamily />
@@ -896,6 +924,7 @@
                                   <Value>=Fields!Cijena_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -909,6 +938,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
                             </BottomBorder>
                             <FontFamily />
@@ -932,6 +962,7 @@
                                   <Value>=Fields!PDV_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -945,7 +976,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -968,6 +1001,7 @@
                                   <Value>=Fields!Cijena_s_PDV_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -981,7 +1015,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1004,6 +1040,7 @@
                                   <Value>=Fields!Vrijednost_EUR_materijala.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1017,7 +1054,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1057,6 +1096,11 @@
                             <Border>
                               <Color>LightGrey</Color>
                             </Border>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                              <Width>1.25pt</Width>
+                            </BottomBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1077,6 +1121,7 @@
                                   <Value>=Fields!Naziv_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1090,7 +1135,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1113,6 +1160,7 @@
                                   <Value>=Fields!Količina_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1126,7 +1174,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1149,6 +1199,7 @@
                                   <Value>=Fields!Cijena_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1162,7 +1213,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1185,6 +1238,7 @@
                                   <Value>=Fields!PDV_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1198,7 +1252,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1221,6 +1277,7 @@
                                   <Value>=Fields!Cijena_s_PDV_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>9pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1234,7 +1291,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1257,6 +1316,7 @@
                                   <Value>=Fields!Vrijednost_EUR_usluge.Value</Value>
                                   <Style>
                                     <FontFamily />
+                                    <FontSize>8pt</FontSize>
                                     <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
@@ -1270,7 +1330,9 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
+                              <Color>Black</Color>
                               <Style>Solid</Style>
+                              <Width>1.25pt</Width>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1336,15 +1398,304 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
-            <Top>7.82931in</Top>
-            <Left>2.35479cm</Left>
+            <Top>6.43348in</Top>
+            <Left>0.47625cm</Left>
             <Height>0.9525in</Height>
-            <Width>7.22917in</Width>
+            <Width>7.95834in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <FontFamily />
             </Style>
           </Tablix>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>PONUDA</Value>
+                    <Style>
+                      <FontSize>14pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>3.86333in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox11">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Broj:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.3909in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Mjesto:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.65132in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Poziv na broj:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.91174in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Datum</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>5.18257in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox15">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Broj_ponude.Value</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.3909in</Top>
+            <Left>2.13021in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox16">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Mjesto:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.65132in</Top>
+            <Left>2.13021in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox17">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Poziv na broj:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>4.91174in</Top>
+            <Left>2.13021in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Datum</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>5.18258in</Top>
+            <Left>2.13021in</Left>
+            <Height>0.25in</Height>
+            <Width>1in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>9.03181in</Height>
         <Style />
