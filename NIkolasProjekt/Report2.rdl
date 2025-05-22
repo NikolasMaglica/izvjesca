@@ -9,7 +9,7 @@
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.13.35931.197</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-05-21T12:08:42.3491486Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-05-22T11:12:56.0272450Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
@@ -165,7 +165,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Report2</Value>
+                    <Value />
                     <Style>
                       <FontFamily>Segoe UI Light</FontFamily>
                       <FontSize>24pt</FontSize>
@@ -177,6 +177,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.10583cm</Top>
+            <Left>0.02647cm</Left>
             <Height>0.43in</Height>
             <Width>8.4375in</Width>
             <Style>
@@ -196,13 +198,13 @@
                   <Width>1.31399in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.08482in</Width>
+                  <Width>1.11831in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.08482in</Width>
+                  <Width>1.12946in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.08482in</Width>
+                  <Width>1.15369in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1.08482in</Width>
@@ -232,7 +234,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>textbox2</rd:DefaultName>
@@ -243,9 +247,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -271,7 +276,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>textbox4</rd:DefaultName>
@@ -282,9 +289,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -302,7 +310,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Količina materijala</Value>
+                                  <Value>Količina </Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>9pt</FontSize>
@@ -312,7 +320,7 @@
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -324,9 +332,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -344,7 +353,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Cijena materijala</Value>
+                                  <Value>Cijena </Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>9pt</FontSize>
@@ -354,7 +363,7 @@
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -366,9 +375,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -386,7 +396,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>PDV materijala</Value>
+                                  <Value>PDV </Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>9pt</FontSize>
@@ -396,7 +406,7 @@
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -408,9 +418,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -428,7 +439,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Cijena s PDV materijala</Value>
+                                  <Value>Cijena s PDV </Value>
                                   <Style>
                                     <FontFamily />
                                     <FontSize>9pt</FontSize>
@@ -438,7 +449,7 @@
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -450,9 +461,10 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -480,7 +492,7 @@
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -492,12 +504,13 @@
                             <BottomBorder>
                               <Color>Black</Color>
                               <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Width>1.5pt</Width>
                             </BottomBorder>
                             <LeftBorder>
                               <Style>None</Style>
                             </LeftBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -523,14 +536,12 @@
                                   <Value>=Fields!Broj_ponude_g.Value</Value>
                                   <Style>
                                     <FontFamily />
-                                    <FontSize>8pt</FontSize>
-                                    <Color>#333333</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
                                 <FontFamily />
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -543,7 +554,12 @@
                               <Color>Black</Color>
                               <Style>Solid</Style>
                             </BottomBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                              <Style>Solid</Style>
+                            </RightBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -853,7 +869,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Naziv_materijala</rd:DefaultName>
@@ -862,10 +880,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -891,7 +909,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Količina_materijala</rd:DefaultName>
@@ -900,10 +920,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -929,7 +949,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Cijena_materijala</rd:DefaultName>
@@ -938,10 +960,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -967,7 +989,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>PDV_materijala</rd:DefaultName>
@@ -976,11 +1000,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1006,7 +1029,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Cijena_s_PDV_materijala</rd:DefaultName>
@@ -1015,11 +1040,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1045,7 +1069,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Vrijednost_EUR_materijala</rd:DefaultName>
@@ -1054,11 +1080,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1097,9 +1122,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -1126,7 +1149,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Naziv_usluge</rd:DefaultName>
@@ -1135,11 +1160,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1165,7 +1189,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Količina_usluge</rd:DefaultName>
@@ -1174,11 +1200,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1204,7 +1229,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Cijena_usluge</rd:DefaultName>
@@ -1213,11 +1240,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1243,7 +1269,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>PDV_usluge</rd:DefaultName>
@@ -1252,11 +1280,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1291,9 +1318,7 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
                             <PaddingLeft>2pt</PaddingLeft>
@@ -1321,7 +1346,9 @@
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Vrijednost_EUR_usluge</rd:DefaultName>
@@ -1330,11 +1357,10 @@
                               <Color>LightGrey</Color>
                             </Border>
                             <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1.25pt</Width>
+                              <Style>None</Style>
                             </BottomBorder>
                             <FontFamily />
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1386,8 +1412,16 @@
                         <DataElementName>Detail</DataElementName>
                       </Group>
                       <TablixMembers>
-                        <TablixMember />
-                        <TablixMember />
+                        <TablixMember>
+                          <Visibility>
+                            <Hidden>=IIF(Sum(Fields!Količina_materijala.Value) = 0 AND Sum(Fields!Količina_usluge.Value) = 0, True, False)</Hidden>
+                          </Visibility>
+                        </TablixMember>
+                        <TablixMember>
+                          <Visibility>
+                            <Hidden>=IIF(Fields!Količina_usluge.Value = 0 OR IsNothing(Fields!Količina_usluge.Value), True, False)</Hidden>
+                          </Visibility>
+                        </TablixMember>
                       </TablixMembers>
                       <DataElementName>Detail_Collection</DataElementName>
                       <DataElementOutput>Output</DataElementOutput>
@@ -1398,10 +1432,10 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
-            <Top>6.43348in</Top>
+            <Top>3.53325in</Top>
             <Left>0.47625cm</Left>
             <Height>0.9525in</Height>
-            <Width>7.95834in</Width>
+            <Width>8.10533in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <FontFamily />
@@ -1425,9 +1459,9 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>3.86333in</Top>
+            <Top>1.31727in</Top>
             <Left>0.1875in</Left>
-            <Height>0.25in</Height>
+            <Height>0.30208in</Height>
             <Width>1in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -1457,7 +1491,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.3909in</Top>
+            <Top>1.84484in</Top>
             <Left>0.1875in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1489,7 +1523,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.65132in</Top>
+            <Top>2.10526in</Top>
             <Left>0.1875in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1521,7 +1555,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.91174in</Top>
+            <Top>2.36568in</Top>
             <Left>0.1875in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1553,7 +1587,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>5.18257in</Top>
+            <Top>2.63651in</Top>
             <Left>0.1875in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1585,7 +1619,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.3909in</Top>
+            <Top>1.84484in</Top>
             <Left>2.13021in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1607,7 +1641,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Mjesto:</Value>
+                    <Value>=Fields!Mjesto.Value</Value>
                     <Style>
                       <FontSize>9pt</FontSize>
                     </Style>
@@ -1617,7 +1651,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.65132in</Top>
+            <Top>2.10526in</Top>
             <Left>2.13021in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1639,7 +1673,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Poziv na broj:</Value>
+                    <Value>=Fields!Referentni_broj.Value</Value>
                     <Style>
                       <FontSize>9pt</FontSize>
                     </Style>
@@ -1649,7 +1683,7 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>4.91174in</Top>
+            <Top>2.36568in</Top>
             <Left>2.13021in</Left>
             <Height>0.25in</Height>
             <Width>1in</Width>
@@ -1671,7 +1705,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Datum</Value>
+                    <Value>=Fields!Datum_ponude.Value</Value>
                     <Style>
                       <FontSize>9pt</FontSize>
                     </Style>
@@ -1681,10 +1715,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox10</rd:DefaultName>
-            <Top>5.18258in</Top>
+            <Top>2.63652in</Top>
             <Left>2.13021in</Left>
             <Height>0.25in</Height>
-            <Width>1in</Width>
+            <Width>1.54092in</Width>
             <ZIndex>10</ZIndex>
             <Style>
               <Border>
@@ -1696,12 +1730,1008 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Textbox Name="Textbox19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Datum dospijeća:</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>2.88651in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1.08482in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Datum_valjanosti.Value</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>2.90041in</Top>
+            <Left>2.13021in</Left>
+            <Height>0.25in</Height>
+            <Width>1.54092in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox21">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Auto Expert j.d.o.o</Value>
+                    <Style>
+                      <FontSize>11pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.32768in</Top>
+            <Left>6.13989in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox22">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ivana Ivića 10</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.5881in</Top>
+            <Left>6.13989in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox23">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>10000 Zagreb, Hrvatska</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.84852in</Top>
+            <Left>6.13989in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox24">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>OIB: 51242142131</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.11935in</Top>
+            <Left>6.13989in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox25">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>T: +385 3 421 5676</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.36935in</Top>
+            <Left>6.13989in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox27">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>M: info@auto-expert.hr</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.61935in</Top>
+            <Left>6.13988in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Image Name="Image1">
+            <Source>Embedded</Source>
+            <Value>images</Value>
+            <Sizing>FitProportional</Sizing>
+            <Left>0.1875in</Left>
+            <Height>1.28949in</Height>
+            <Width>2.39881in</Width>
+            <ZIndex>19</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox26">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Ime_klijenta.Value</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>2.37263in</Top>
+            <Left>5.0785in</Left>
+            <Height>0.25in</Height>
+            <Width>1.54092in</Width>
+            <ZIndex>20</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox29">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Adresa_klijenta.Value</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>2.63652in</Top>
+            <Left>5.0785in</Left>
+            <Height>0.25in</Height>
+            <Width>1.54092in</Width>
+            <ZIndex>21</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Ukupni_neto_iznos.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>6.92559in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>22</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>5.86384in</Left>
+            <Height>0.25in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ukupno:</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>3.98884in</Left>
+            <Height>0.30099in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>4.62053in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>2.45089in</Left>
+            <Height>0.25in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>26</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>1.27232in</Left>
+            <Height>0.25in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>28</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos8">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value> PDV: 25,00%</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.76353in</Top>
+            <Left>3.70462in</Left>
+            <Height>0.25in</Height>
+            <Width>1.50446in</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos9">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Od: </Value>
+                    <Style />
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Fields!Ukupni_neto_iznos.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.74964in</Top>
+            <Left>5.22274in</Left>
+            <Height>0.25in</Height>
+            <Width>1.57062in</Width>
+            <ZIndex>30</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Ukupni_iznos.Value - Fields!Ukupni_neto_iznos.Value</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.73575in</Top>
+            <Left>6.92559in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>31</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos11">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ukupno EUR:</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>3.70462in</Left>
+            <Height>0.25in</Height>
+            <Width>1.50446in</Width>
+            <ZIndex>32</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Ukupni_iznos.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>6.92559in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>33</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>4.48575in</Top>
+            <Left>3.49547in</Left>
+            <Height>0.25in</Height>
+            <Width>1.22024in</Width>
+            <ZIndex>34</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <TopBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </TopBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>5.0785in</Left>
+            <Height>0.25in</Height>
+            <Width>1.84709in</Width>
+            <ZIndex>35</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>0.1875in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>36</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>1.49489in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>37</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.01353in</Top>
+            <Left>2.45089in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>38</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Color>Black</Color>
+                <Style>Solid</Style>
+                <Width>1.5pt</Width>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos15">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Za plaćanje EUR:</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.26353in</Top>
+            <Left>3.49547in</Left>
+            <Height>0.25in</Height>
+            <Width>1.71361in</Width>
+            <ZIndex>39</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Ukupni_neto_iznos16">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!Ukupni_iznos.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Ukupni_neto_iznos</rd:DefaultName>
+            <Top>5.26353in</Top>
+            <Left>6.92559in</Left>
+            <Height>0.25in</Height>
+            <Width>1.36724in</Width>
+            <ZIndex>40</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>9.03181in</Height>
+        <Height>9.32348in</Height>
         <Style />
       </Body>
       <Width>8.44792in</Width>
       <Page>
+        <PageHeight>8.5in</PageHeight>
+        <PageWidth>11in</PageWidth>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
         <TopMargin>1in</TopMargin>
@@ -1729,6 +2759,23 @@
       </CellDefinitions>
     </GridLayoutDefinition>
   </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="images">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
   <Language>en-US</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
