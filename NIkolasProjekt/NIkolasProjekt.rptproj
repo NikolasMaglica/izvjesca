@@ -50,15 +50,16 @@
   </PropertyGroup>
   <ItemGroup>
     <DataSet Include="DataSet1.rsd" />
+    <DataSet Include="DataSet2.rsd" />
   </ItemGroup>
   <ItemGroup>
-    <DataSource Include="DataSource1.rds" />
     <DataSource Include="DataSource2.rds" />
   </ItemGroup>
   <ItemGroup>
     <Report Include="izvjestajVozila.rdl" />
     <Report Include="Report1.rdl" />
     <Report Include="Report2.rdl" />
+    <Report Include="Report3.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>

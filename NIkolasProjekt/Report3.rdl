@@ -3,39 +3,39 @@
   <am:AuthoringMetadata>
     <am:CreatedBy>
       <am:Name>SSDTRS</am:Name>
-      <am:Version>17.10.34928.147</am:Version>
+      <am:Version>17.13.35931.197</am:Version>
     </am:CreatedBy>
     <am:UpdatedBy>
       <am:Name>SSDTRS</am:Name>
       <am:Version>17.13.35931.197</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-06-05T13:49:31.7013620Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-06-05T14:10:41.3478894Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="DataSource2">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=localhost;Initial Catalog=Test_Diplomssski;TrustServerCertificate=True</ConnectString>
-      </ConnectionProperties>
+      <DataSourceReference>DataSource2</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
-      <rd:DataSourceID>a6a39d28-d6f5-4bbc-997c-b40e93e71810</rd:DataSourceID>
+      <rd:DataSourceID>1b49ff71-512c-4c7c-8a22-54837368eb37</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet2">
-      <SharedDataSet>
-        <SharedDataSetReference>DataSet2</SharedDataSetReference>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DataSource2</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@idrow">
             <Value>=Parameters!idrow.Value</Value>
           </QueryParameter>
         </QueryParameters>
-      </SharedDataSet>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>procNik</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
       <Fields>
         <Field Name="Naziv_proizvođača">
-          <DataField>Naziv_proizvođača</DataField>
+          <DataField>Naziv proizvođača</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Model">
@@ -43,23 +43,23 @@
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Broj_prijeđenih_kilometara">
-          <DataField>Broj_prijeđenih_kilometara</DataField>
+          <DataField>Broj prijeđenih kilometara</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Naziv_materijala">
-          <DataField>Naziv_materijala</DataField>
+          <DataField>Naziv materijala</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Količina_materijala">
-          <DataField>Količina_materijala</DataField>
+          <DataField>Količina materijala</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Naziv_usluge">
-          <DataField>Naziv_usluge</DataField>
+          <DataField>Naziv usluge</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Količina_usluge">
-          <DataField>Količina_usluge</DataField>
+          <DataField>Količina usluge</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Datum">
@@ -71,7 +71,7 @@
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="Broj_registacijske_oznake">
-          <DataField>Broj_registacijske_oznake</DataField>
+          <DataField>Broj registacijske oznake</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
@@ -81,48 +81,7 @@
     <ReportSection>
       <Body>
         <ReportItems>
-          <Textbox Name="textbox1">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>        IZVJEŠĆE O POPRAVCIMA VOZILA</Value>
-                    <Style>
-                      <FontFamily>Segoe UI Light</FontFamily>
-                      <FontSize>24pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value />
-                    <Style>
-                      <FontFamily>Segoe UI Light</FontFamily>
-                      <FontSize>24pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>textbox1</rd:DefaultName>
-            <Height>0.43in</Height>
-            <Width>7in</Width>
-            <Style>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Tablix Name="List1">
+          <Tablix Name="List4">
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
@@ -135,9 +94,9 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Rectangle Name="List1_Contents">
+                        <Rectangle Name="List1_Contents2">
                           <ReportItems>
-                            <Textbox Name="Naziv_proizvođača">
+                            <Textbox Name="Naziv_proizvođača2">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -173,7 +132,7 @@
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <Tablix Name="List2">
+                            <Tablix Name="List5">
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
@@ -186,9 +145,9 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Rectangle Name="List2_Contents">
+                                          <Rectangle Name="List2_Contents2">
                                             <ReportItems>
-                                              <Tablix Name="table1">
+                                              <Tablix Name="table2">
                                                 <TablixBody>
                                                   <TablixColumns>
                                                     <TablixColumn>
@@ -216,7 +175,7 @@
                                                       <TablixCells>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox2">
+                                                            <Textbox Name="textbox21">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -264,7 +223,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox4">
+                                                            <Textbox Name="textbox22">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -309,7 +268,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox6">
+                                                            <Textbox Name="textbox23">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -353,7 +312,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox7">
+                                                            <Textbox Name="textbox24">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -398,7 +357,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox8">
+                                                            <Textbox Name="textbox25">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -442,7 +401,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox9">
+                                                            <Textbox Name="textbox26">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -496,14 +455,14 @@
                                                       <TablixCells>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="Datum">
+                                                            <Textbox Name="Datum2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
                                                                 <Paragraph>
                                                                   <TextRuns>
                                                                     <TextRun>
-                                                                      <Value>=Fields!Datum.Value</Value>
+                                                                      <Value>=Format(Fields!Datum.Value, "dd/MM/yy HH:mm")</Value>
                                                                       <Style>
                                                                         <FontFamily />
                                                                         <Format>M/d/yyyy</Format>
@@ -537,11 +496,12 @@
                                                                 <PaddingBottom>2pt</PaddingBottom>
                                                               </Style>
                                                             </Textbox>
+                                                            <rd:Selected>true</rd:Selected>
                                                           </CellContents>
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox11">
+                                                            <Textbox Name="textbox27">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -580,7 +540,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox12">
+                                                            <Textbox Name="textbox28">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -619,7 +579,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox13">
+                                                            <Textbox Name="textbox29">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -658,7 +618,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox14">
+                                                            <Textbox Name="textbox30">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -697,7 +657,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox15">
+                                                            <Textbox Name="textbox31">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -745,7 +705,7 @@
                                                       <TablixCells>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox17">
+                                                            <Textbox Name="textbox32">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -785,7 +745,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="id">
+                                                            <Textbox Name="id2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -901,7 +861,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox20">
+                                                            <Textbox Name="textbox33">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -940,7 +900,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox21">
+                                                            <Textbox Name="textbox34">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -992,7 +952,7 @@
                                                       <TablixCells>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox3">
+                                                            <Textbox Name="textbox35">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1034,7 +994,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="textbox5">
+                                                            <Textbox Name="textbox36">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1071,7 +1031,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="Naziv_materijala">
+                                                            <Textbox Name="Naziv_materijala2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1111,7 +1071,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="Količina_materijala">
+                                                            <Textbox Name="Količina_materijala2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1151,7 +1111,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="Naziv_usluge">
+                                                            <Textbox Name="Naziv_usluge2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1188,7 +1148,7 @@
                                                         </TablixCell>
                                                         <TablixCell>
                                                           <CellContents>
-                                                            <Textbox Name="Količina_usluge">
+                                                            <Textbox Name="Količina_usluge2">
                                                               <CanGrow>true</CanGrow>
                                                               <KeepTogether>true</KeepTogether>
                                                               <Paragraphs>
@@ -1252,7 +1212,7 @@
                                                       <KeepTogether>true</KeepTogether>
                                                     </TablixMember>
                                                     <TablixMember>
-                                                      <Group Name="table1_Datum">
+                                                      <Group Name="table1_Datum2">
                                                         <GroupExpressions>
                                                           <GroupExpression>=Fields!Datum.Value</GroupExpression>
                                                         </GroupExpressions>
@@ -1268,7 +1228,7 @@
                                                           <KeepTogether>true</KeepTogether>
                                                         </TablixMember>
                                                         <TablixMember>
-                                                          <Group Name="table1_id">
+                                                          <Group Name="table1_id2">
                                                             <GroupExpressions>
                                                               <GroupExpression>=Fields!id.Value</GroupExpression>
                                                             </GroupExpressions>
@@ -1284,7 +1244,7 @@
                                                               <KeepTogether>true</KeepTogether>
                                                             </TablixMember>
                                                             <TablixMember>
-                                                              <Group Name="table1_Details_Group">
+                                                              <Group Name="table1_Details_Group2">
                                                                 <DataElementName>Detail</DataElementName>
                                                               </Group>
                                                               <TablixMembers>
@@ -1320,14 +1280,14 @@
                                                   <Paragraph>
                                                     <TextRuns>
                                                       <TextRun>
-                                                        <Value>Registracija oznaka: </Value>
+                                                        <Value>Broj registracijske oznake: </Value>
                                                         <Style>
                                                           <FontFamily />
                                                           <FontSize>12pt</FontSize>
                                                         </Style>
                                                       </TextRun>
                                                       <TextRun>
-                                                        <Value>=Fields!Broj_registracijske_oznake.Value</Value>
+                                                        <Value>=First(Fields!Broj_registacijske_oznake.Value)</Value>
                                                         <Style>
                                                           <FontFamily />
                                                           <FontSize>12pt</FontSize>
@@ -1338,6 +1298,7 @@
                                                   </Paragraph>
                                                 </Paragraphs>
                                                 <rd:DefaultName>Model</rd:DefaultName>
+                                                <Left>0cm</Left>
                                                 <Height>0.24in</Height>
                                                 <Width>7in</Width>
                                                 <ZIndex>1</ZIndex>
@@ -1367,7 +1328,7 @@
                               <TablixRowHierarchy>
                                 <TablixMembers>
                                   <TablixMember>
-                                    <Group Name="list1_Model">
+                                    <Group Name="list1_Model2">
                                       <GroupExpressions>
                                         <GroupExpression>=Fields!Model.Value</GroupExpression>
                                       </GroupExpressions>
@@ -1398,7 +1359,7 @@
                                 <FontSize>12pt</FontSize>
                               </Style>
                             </Tablix>
-                            <Textbox Name="Model">
+                            <Textbox Name="Model3">
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
@@ -1453,7 +1414,7 @@
             <TablixRowHierarchy>
               <TablixMembers>
                 <TablixMember>
-                  <Group Name="list1_Naziv_proizvođača">
+                  <Group Name="list1_Naziv_proizvođača2">
                     <GroupExpressions>
                       <GroupExpression>=Fields!Naziv_proizvođača.Value</GroupExpression>
                     </GroupExpressions>
@@ -1475,21 +1436,261 @@
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
-            <Top>0.43in</Top>
+            <Top>2.37475in</Top>
+            <Left>0.03779cm</Left>
             <Height>2.24056in</Height>
             <Width>7in</Width>
-            <ZIndex>1</ZIndex>
             <Style>
               <FontSize>14pt</FontSize>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox21">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Auto Expert j.d.o.o</Value>
+                    <Style>
+                      <FontSize>11pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.18885in</Top>
+            <Left>5.48364in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox22">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ivana Ivića 10</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.44927in</Top>
+            <Left>5.48364in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox23">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>10000 Zagreb, Hrvatska</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.70969in</Top>
+            <Left>5.48364in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox25">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>OIB: 51242142131</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>0.98052in</Top>
+            <Left>5.48364in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox26">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>T: +385 3 421 5676</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.23052in</Top>
+            <Left>5.48364in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox27">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>M: info@auto-expert.hr</Value>
+                    <Style>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.48052in</Top>
+            <Left>5.48363in</Left>
+            <Height>0.25in</Height>
+            <Width>1.53125in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Image Name="Image2">
+            <Source>Embedded</Source>
+            <Value>images</Value>
+            <Sizing>FitProportional</Sizing>
+            <Top>0.4323cm</Top>
+            <Left>0.01488in</Left>
+            <Height>1.28949in</Height>
+            <Width>2.39881in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>IZVJEŠĆE O POPRAVKU VOZILA</Value>
+                    <Style>
+                      <FontSize>14pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>1.75135in</Top>
+            <Left>2.01488in</Left>
+            <Height>0.30208in</Height>
+            <Width>3.16667in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>11.01231cm</Height>
+        <Height>11.77927cm</Height>
         <Style />
       </Body>
-      <Width>22.35729cm</Width>
+      <Width>17.88867cm</Width>
       <Page>
-        <PageHeight>29.7cm</PageHeight>
+        <PageHeight>21cm</PageHeight>
         <PageWidth>24cm</PageWidth>
         <LeftMargin>2.54cm</LeftMargin>
         <RightMargin>2.54cm</RightMargin>
@@ -1508,8 +1709,8 @@
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
+      <NumberOfColumns>1</NumberOfColumns>
+      <NumberOfRows>1</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -1519,8 +1720,25 @@
       </CellDefinitions>
     </GridLayoutDefinition>
   </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="images">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
   <Language>en-US</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
-  <rd:ReportID>b942ec20-8770-4081-b67a-64c4c69b0214</rd:ReportID>
+  <rd:ReportID>92720b92-1e3b-4720-8d9f-cd9b787ee111</rd:ReportID>
 </Report>
