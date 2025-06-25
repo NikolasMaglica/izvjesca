@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DataSource2">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=localhost;Initial Catalog=Test_Diplomssski;TrustServerCertificate=True</ConnectString>
+    <ConnectString>Data Source=localhost;Initial Catalog=Test_Diploski;TrustServerCertificate=True</ConnectString>
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>e0a6fb9d-7f5a-4d26-be8b-a472e37811a7</DataSourceID>

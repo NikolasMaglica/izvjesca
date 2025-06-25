@@ -10,7 +10,6 @@
           <Nullable>true</Nullable>
           <OmitFromQuery>false</OmitFromQuery>
           <rd:DbType>AnsiString</rd:DbType>
-          <rd:IsMultiValued>false</rd:IsMultiValued>
         </DataSetParameter>
       </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
@@ -40,10 +39,6 @@
       </Field>
       <Field Name="Referentni_broj">
         <DataField>Referentni broj</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Osnova">
-        <DataField>Osnova</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="Ukupni_neto_iznos">
